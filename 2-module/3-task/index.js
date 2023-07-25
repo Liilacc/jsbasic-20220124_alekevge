@@ -1,19 +1,14 @@
 let calculator = {
   // ваш код
-  read(a, b){
+  
+  read: (a, b) =>{
     this.a = a;
     this.b = b;
   },
 
-  sum(a, b){
-    return this.a + this.b;
-  },
+  sum: (a, b) => this.a + this.b,
 
-  mul(a, b){
-    return this.a * this.b;
-  },
-
-
+  mul: (a, b) => this.a * this.b,
 };
 
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
